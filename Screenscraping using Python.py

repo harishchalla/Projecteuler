@@ -1,0 +1,8 @@
+#Screenscraping for getting pagesource using Python
+import urllib #To make the HTTP request
+
+htmlfile = urllib.urlopen("http://www.vendus.com")
+
+htmltext = htmlfile.read()
+
+print htmltext
